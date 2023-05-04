@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: 200px;
+}
+
+    /*cabeçalho*/
+header {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Sigmar';
+    font-weight: lighter;
+    font-size: 3em;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+nav p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+    /*conteudo*/
+main {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+#container1 {
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 10px;
+    margin: 4em 0px 0px 10px;
+
+}
+
+p#conteudo1 {
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#container2 {
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+    padding: 10px;
+    margin: 18em 0px 0px 0px;
+    box-shadow: black;
+}
+
+#conteudo2 {
+    background-color: rgba(0, 0, 0, 0.363);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: white;
+    text-shadow: black;
+}
+
+#container3 {
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 10px;
+    margin: 7em 0px 0px 10px;
+}
+
+#conteudo3 {
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#container4 {
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 10px;
+    margin: 18em 0px 0px 10px;
+}
+
+#conteudo4 {
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#container5 {
+    background: url('imagens/background002.jpg') center center no-repeat fixed;
+    position: relative;
+    height: 50vh;
+    padding: 10px;
+    margin: 18em 0px 0px 10px;
+}
+
+#conteudo5 {
+    background-color: rgba(0, 0, 0, 0.418);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: white;
+    text-shadow: black;
+}
+
+#container6 {
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 10px;
+    margin: 8em 0px 0px 10px;
+}
+
+#conteudo6 {
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#container7 {
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 18em 0px 0px 10px;
+}
+
+#conteudo7 {
+    background-size: 100% 100%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
