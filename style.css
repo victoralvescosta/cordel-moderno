@@ -2,15 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sigmar', cursive;
+    --fonte3: 'Dancing Script', cursive;
+}
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
-body {
+body, html {
     min-height: 100vh;
+    font-family: var(--fonte1);
 }
 
     /*cabeçalho*/
@@ -19,13 +26,12 @@ header {
     color: white;
     padding-top: 50px;
     text-align: center;
-    position: relative;
 }
 
 header h1 {
-    font-family: 'Sigmar';
+    font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 5vw;
     font-weight: lighter;
 }
 
@@ -39,7 +45,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 2em;
+    font-size: 5vw;
 }
 
 seciton.normal {
@@ -50,11 +56,29 @@ seciton.normal {
 section.imagem {
     background-color: rgba(44, 44, 44, 0.541);
     color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset -1px 1px 10px 0px black;
+    background-size: cover;
+    background-position: right center;
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+section#img2 {
+    background-image: url(imagens/background002.jpg);
 }
 
 section.imagem p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.267);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 10px;
+}
+
+section p {
+    padding-bottom: 30px;
+    font-family: var(--fonte3);
 }
 
 footer {
